@@ -1,6 +1,6 @@
 function removeEnd(arr, n) {
-arr.length -= n;
-return arr; 
+arr.splice(-n,n)
+return arr;
 }
 console.log(removeEnd([2, 3, 1, 8, 9, 7], 3));
 
