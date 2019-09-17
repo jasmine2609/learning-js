@@ -9,7 +9,7 @@ function transform(numbers, callback) {
 var result = [];
 for (var x of numbers){
    result.push(callback(x));
-   // console.log(result);  
+  
 }
 return result;
 }
